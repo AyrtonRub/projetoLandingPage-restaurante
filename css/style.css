@@ -19,6 +19,10 @@ body {
     background-color: var(--color-primary-1)
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     padding: 28px 8%;
 }
@@ -83,7 +87,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: var(--color-primary-1)
+    background-color: var(--color-primary-1);
     z-index: 999;
 }
 
@@ -240,7 +244,7 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 1.563rem;
-    color: var(--color-primary-1)
+    color: var(--color-primary-1);
     width: 70px;
     height: 70px ;
     right: -10px;
